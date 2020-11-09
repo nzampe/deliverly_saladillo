@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
 
-/* import { register } from 'register-service-worker'
+import { register } from 'register-service-worker'
 
 
 const workerPath = 'service-worker.js'
 
-if('serviceWorker' in navigator) {
+// if('serviceWorker' in navigator) {
 
   register(workerPath, {
     ready(registration) {
@@ -36,5 +36,4 @@ if('serviceWorker' in navigator) {
       console.error('Error during service worker registration: ', error)
     },
   })
-} */
-
+// }

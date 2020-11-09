@@ -8,6 +8,8 @@ import Vuelidate from 'vuelidate';
 import vuetify from './plugins/vuetify';
 import Vuetify from 'vuetify/lib';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import DatePick from 'vue-date-pick';
+import 'vue-date-pick/dist/vueDatePick.css';
 // import './service-worker.js'
 
 Vue.config.productionTip = false
@@ -20,6 +22,7 @@ Vue.use(Vuetify, {
     iconfont: 'md' || 'fa' // default - only for display purposes
   },
 })
+Vue.component('date-pick', DatePick);
 
 Vue.mixin({
 

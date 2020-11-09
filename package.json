@@ -10,6 +10,7 @@
     "@pusher/push-notifications-web": "^1.1.0",
     "core-js": "^3.6.5",
     "jwt-decode": "^3.0.0",
+    "luxon": "^1.25.0",
     "material-design-icons-iconfont": "^6.1.0",
     "pusher-js": "^7.0.1",
     "register-service-worker": "^1.7.1",
@@ -17,10 +18,13 @@
     "vue-axios": "^2.1.5",
     "vue-browser-geolocation": "^1.8.0",
     "vue-cookies": "^1.7.4",
+    "vue-date-pick": "^1.4.1",
+    "vue-datetime": "^1.0.0-beta.14",
     "vue-router": "^3.2.0",
     "vuelidate": "^0.7.5",
     "vuetify": "^2.2.11",
-    "vuex": "^3.5.1"
+    "vuex": "^3.5.1",
+    "weekstart": "^1.0.1"
   },
   "devDependencies": {
     "@mdi/font": "^5.6.55",
